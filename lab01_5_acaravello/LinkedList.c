@@ -65,12 +65,14 @@ int removeA(linked_list* list, int key){
     
     if(list->head->key == key){
         list->head = list->head->next;
+        return 1;
     }
     
     linked_list_node* temp = list->head;
     
     while(temp->next){
         if(temp->next->key == key){
+            free(temp->next);
             temp->next = temp->next->next;
             return 1;
         }

@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9603D537222F050000682045 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 9603D536222F050000682045 /* stack.c */; };
 		96A379FA222D8CC200AB5873 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 96A379F9222D8CC200AB5873 /* main.c */; };
 		96A37A02222DD02100AB5873 /* LinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 96A37A01222DD02100AB5873 /* LinkedList.c */; };
+		96FD26FA2230B77200361437 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = 96FD26F92230B77200361437 /* queue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9603D535222F050000682045 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		9603D536222F050000682045 /* stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stack.c; sourceTree = "<group>"; };
 		96A379F6222D8CC200AB5873 /* lab01_5_acaravello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab01_5_acaravello; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A379F9222D8CC200AB5873 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		96A37A00222DD02100AB5873 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		96A37A01222DD02100AB5873 /* LinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LinkedList.c; sourceTree = "<group>"; };
+		96FD26F82230B77200361437 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		96FD26F92230B77200361437 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				96A379F9222D8CC200AB5873 /* main.c */,
 				96A37A00222DD02100AB5873 /* LinkedList.h */,
 				96A37A01222DD02100AB5873 /* LinkedList.c */,
+				9603D535222F050000682045 /* stack.h */,
+				9603D536222F050000682045 /* stack.c */,
+				96FD26F82230B77200361437 /* queue.h */,
+				96FD26F92230B77200361437 /* queue.c */,
 			);
 			path = lab01_5_acaravello;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9603D537222F050000682045 /* stack.c in Sources */,
+				96FD26FA2230B77200361437 /* queue.c in Sources */,
 				96A37A02222DD02100AB5873 /* LinkedList.c in Sources */,
 				96A379FA222D8CC200AB5873 /* main.c in Sources */,
 			);

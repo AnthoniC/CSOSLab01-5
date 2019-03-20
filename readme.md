@@ -1,3 +1,6 @@
+# Grade: 100
+Great job
+
 # Lab 1.5
 **Anthoni Caravello**
 

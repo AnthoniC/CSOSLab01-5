@@ -2,6 +2,7 @@
 Great job
 
 # Lab 1.5
+## Lab written by Dr. Aaron Block at Austin College for the Spring 2019 Operating Systems class
 **Anthoni Caravello**
 
 **Objective**: The objective of this lab is to get better understanding of C. You will do this by building the following data structures.  Each of these data structures should be in their own `.h/.c` files.

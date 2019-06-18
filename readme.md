@@ -1,5 +1,3 @@
-# Grade: 100
-Great job
 
 # Lab 1.5
 ## Lab written by Dr. Aaron Block at Austin College for the Spring 2019 Operating Systems class
